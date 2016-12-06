@@ -8,12 +8,16 @@ Written in AHK (Auto Hotkey) https://autohotkey.com/
 ;Have to be using a keyboard for it to work
 ;Forge Tool V0.3
 ;Author Dava96
+
+
 ;----------------------------------------------------------------------
 ;Changelog V0.1 
 ;Made Scripts More efficent
 ;Added Gui
 ;Added Buttons, Help, Kill, About
 ;----------------------------------------------------------------------
+
+
 ;Changelog V0.2
 ;Added the rebinder tool
 ;Added Weapon lower Tool
@@ -26,6 +30,8 @@ Written in AHK (Auto Hotkey) https://autohotkey.com/
 ;Added Object Counter
 ;Added Useful Links
 ;Enable usage on multiple setups
+
+
 ;----------------------------------------------------------------------
 ;To Do List
 ;Fix Weapon Lower
