@@ -26,6 +26,7 @@
 ;General Rule sets for game types  e.g infection 15 human spawns
 ;Enable usage on multiple setups - HARD
 ;Add 2 more Presets (LSD version)
+;-------------------------------------------------------------               
 ;----------------------------------------------------------------------
 
 ;Legacy Gui
@@ -51,7 +52,7 @@
 
 Gui,Add,Button,x5 y3 w40 h20 gHButton,Help
 Gui,Add,Button,x50 y3 w40 h20 gAButton,About
-Gui,Add,Text,x165 y106 w90 h20,Forge Tool | V0.2
+Gui,Add,Text,x165 y106 w90 h20,Forge Tool | V0.3
 Gui,Add,DropDownList,x150 y3 w100 h125 vDDL gSetTxt, Object on map||Diamondback|Guardian|High Ground|Icebox|Narrows|Reactor|Sandtrap|Standoff|The Pit|Valhalla|Flatgrass
 Gui,Add,Text,x165 y85 w120 h20 vTxt, Object Count
 Gui,Add,Text,x5 y70 w120 h20 gReddit, Reddit.com/r/HaloOnline
@@ -67,17 +68,17 @@ return
 
 {
 	Reddit:
-
-run https://www.reddit.com/r/HaloOnline/
-return
-
-Vault:
-run http://halovau.lt/
-return
-
-VaultD:
-run https://discord.gg/HzEga4p
-return 
+	
+	run https://www.reddit.com/r/HaloOnline/
+	return
+	
+	Vault:
+	run http://halovau.lt/
+	return
+	
+	VaultD:
+	run https://discord.gg/HzEga4p
+	return 
 }
 
 SetTxt:
@@ -129,89 +130,88 @@ Else If (DDL = "Flatgrass")
 
 
 SetRes:
+Gui, Submit, NoHide
 If (DDL2 = "1920x1080")
 {
-		MouseMove, 126, 1025
+	MouseMove, 126, 1025
 }
-	Else if (DDL2  = "1768x992")
+Else if (DDL2  = "1768x992")
 {
-		MouseMove, 126, 1025
-	}
-	Else if (DDL2 = "1680x1050")
-	{
-		MouseMove, 273, 974
-	}
-	Else if (DDL2 = "1600x1024")
-	{
-		MouseMove, 273, 974
-	}
-	Else if (DDL2 = "1600x900")
-	{
-		MouseMove, 201, 1027
-	}
-	Else if (DDL2 = "1440x900")
-	{
-		MouseMove, 273, 974
-	}
-	Else if (DDL2 = "1366x768")
-	{
-		MouseMove, 126, 1025
-	}
-	Else if (DDL2 = "1360x768")
-	{
-		MouseMove, 126, 1025
-	}
-	Else if (DDL2 = "1280x1024")
-	{
-		MouseMove, 412, 880
-	}
-	Else if (DDL2 = "1280x960")
-	{
-		MouseMove, 379, 904
-	}
-	Else if (DDL2 = "1280x800")
-	{
-		MouseMove, 273, 974
-	}
-	Else if (DDL2 = "1280x768")
-	{
-		MouseMove, 256, 990
-	}
-	Else if (DDL2 = "1280x720")
-	{
-		MouseMove, 126, 1025
-	}
-	Else if (DDL2 = "1176x664")
-	{
-		MouseMove, 126, 1025
-	}
-	Else if (DDL2 = "1152x864")
-	{
-		MouseMove, 379, 904
-	}
-	Else if (DDL2 = "1024x768")
-	{
-		MouseMove, 379, 904
-	}
-	Else if (DDL2 = "800x600")
-	{
-		MouseMove, 379, 904
-	}
-	Else if (DDL2 = "720x576")
-	{
-		MouseMove, 397, 885
-	}
-	Else if (DDL2 = "720x480")
-	{
-		MouseMove, 286, 950
-	}
-	Else if (DDL2 = "640x480")
-	{
-		MouseMove, 340, 904
-		
-	}
-
-
+	MouseMove, 126, 1025
+}
+Else if (DDL2 = "1680x1050")
+{
+	MouseMove, 273, 974
+}
+Else if (DDL2 = "1600x1024")
+{
+	MouseMove, 273, 974
+}
+Else if (DDL2 = "1600x900")
+{
+	MouseMove, 201, 1027
+}
+Else if (DDL2 = "1440x900")
+{
+	MouseMove, 273, 974
+}
+Else if (DDL2 = "1366x768")
+{
+	MouseMove, 126, 1025
+}
+Else if (DDL2 = "1360x768")
+{
+	MouseMove, 126, 1025
+}
+Else if (DDL2 = "1280x1024")
+{
+	MouseMove, 412, 880
+}
+Else if (DDL2 = "1280x960")
+{
+	MouseMove, 379, 904
+}
+Else if (DDL2 = "1280x800")
+{
+	MouseMove, 273, 974
+}
+Else if (DDL2 = "1280x768")
+{
+	MouseMove, 256, 990
+}
+Else if (DDL2 = "1280x720")
+{
+	MouseMove, 126, 1025
+}
+Else if (DDL2 = "1176x664")
+{
+	MouseMove, 126, 1025
+}
+Else if (DDL2 = "1152x864")
+{
+	MouseMove, 379, 904
+}
+Else if (DDL2 = "1024x768")
+{
+	MouseMove, 379, 904
+}
+Else if (DDL2 = "800x600")
+{
+	MouseMove, 379, 904
+}
+Else if (DDL2 = "720x576")
+{
+	MouseMove, 397, 885
+}
+Else if (DDL2 = "720x480")
+{
+	MouseMove, 286, 950
+}
+Else if (DDL2 = "640x480")
+{
+	MouseMove, 340, 904
+	
+}
 Return
 GuiClose:
 ExitApp
@@ -226,7 +226,7 @@ Return
 
 KButton:
 MsgBox,4,ElDewrito | Forge Tool,Are you sure you want to kill the application?
-IfMsgBox, Yes
+IfMsgBox, Yes  
 {
 	ExitApp
 }
@@ -236,11 +236,20 @@ IfMsgBox,No
 }
 return
 AButton:
-Msgbox,0,ElDewrito | Forge Tool, Made by Dava96, currently still a WIP.
+Msgbox,4,ElDewrito | Forge Tool, Made by Dava96, Still a working in progress. Would you take a look at my forge page? (Halovau.lt)
+IfMsgBox, Yes
+{
+	run http://halovau.lt/forge.php?uid=72
+}
+IfMsgBox,No
+{
+	Return
+}
 return
 HButton:
 Msgbox,0,ElDewrito | Forge Tool, Controls: Capslock to Suspend/Activate. Ctrl + S to Save. Ctrl + R for a New round. Ctrl + F for Auto Delete and Ctrl + G to stop. For the Auto deletion to work you please press Ctrl + B. This tool will assume you are in the correct mode when using the binds.
 return
+
 
 {
 	;Useful links
@@ -291,7 +300,7 @@ return
 	ctrl & s::
 	Send {Escape}
 	Sleep 200
-	MouseMove, 126, 1025
+	GoSub, SetRes
 	sleep 200
 	Click
 	sleep 100
@@ -315,72 +324,72 @@ cycle := "odd"
 if (cycle = "odd")
 {
 		;every first cycle
-		Send {Escape}
-		Sleep 200
-		MouseMove, 126, 1025
-		sleep 200
-		Click
-		sleep 100
-		send {Down Down}
-		sleep 50
-		send {Down Up}
-		sleep 50
-		send {Down Down}
-		sleep 50
-		send {Down Up}
-		sleep 20
-		send {Down Down}
-		sleep 50
-		send {Down Up}
-		sleep 50
-		send {Down Down}
-		sleep 50
-		send {Down Up}
-		sleep 50
-		Send {a}
-		sleep 30
-		send {Right down}
-		sleep 100
-		send {right Up}
-		sleep 75
-		Send {a}
-		sleep 3000
-		cycle := "even"
-	}
-	else
-	{
+	Send {Escape}
+	Sleep 200
+	GoSub, SetRes
+	sleep 200
+	Click
+	sleep 100
+	send {Down Down}
+	sleep 50
+	send {Down Up}
+	sleep 50
+	send {Down Down}
+	sleep 50
+	send {Down Up}
+	sleep 20
+	send {Down Down}
+	sleep 50
+	send {Down Up}
+	sleep 50
+	send {Down Down}
+	sleep 50
+	send {Down Up}
+	sleep 50
+	Send {a}
+	sleep 30
+	send {Right down}
+	sleep 100
+	send {right Up}
+	sleep 75
+	Send {a}
+	sleep 3000
+	cycle := "even"
+}
+else
+{
 		;2nd Cycle
-		Send {Escape}
-		Sleep 200
-		MouseMove, 126, 1025
-		sleep 200
-		Click
-		sleep 100
-		send {Down Down}
-		sleep 50
-		send {Down Up}
-		sleep 50
-		send {Down Down}
-		sleep 50
-		send {Down Up}
-		sleep 50	
-		send {Down Down}
-		sleep 50
-		send {Down Up}
-		sleep 50
-		send {Down Down}
-		sleep 50
-		send {Down Up}
-		sleep 30
-		Send {a}
-		sleep 30
-		send {Left down}
-		sleep 100
-		send {Left Up}
-		sleep 75
-		Send {a}
-		sleep 3000
-		cycle := "odd"
+	Send {Escape}
+	Sleep 200
+	GoSub, SetRes
+	sleep 200
+	Click
+	sleep 100
+	send {Down Down}
+	sleep 50
+	send {Down Up}
+	sleep 50
+	send {Down Down}
+	sleep 50
+	send {Down Up}
+	sleep 50	
+	send {Down Down}
+	sleep 50
+	send {Down Up}
+	sleep 50
+	send {Down Down}
+	sleep 50
+	send {Down Up}
+	sleep 30
+	Send {a}
+	sleep 30
+	send {Left down}
+	sleep 100
+	send {Left Up}
+	sleep 75
+	Send {a}
+	sleep 3000
+	cycle := "odd"
 }
 Return
 
@@ -403,14 +412,15 @@ Loop,
 
 {
 	;Stop the Auto delete tool
-^g:: 
-MsgBox,0,ElDewrito | Forge Tool,Deleting Stopped!,1
-$stop := 1
-return
+	^g:: 
+	MsgBox,0,ElDewrito | Forge Tool,Deleting Stopped!,1
+	$stop := 1
+	return
 }
+
 {
 	
-
+	
 	;Weapon Lower - Needs fixing
 	^l::
 	send {R Down} {G Down} {Space Down} {LControl Down} {Down Down} {E Down}
@@ -609,7 +619,7 @@ return
 	
 }
  ;*[Source Forge Tool]    
- 
+
 {
 	;Diamondback = 289
 	;Edge = Unknown
