@@ -11,6 +11,8 @@ Author Dava96
 
 
 Changelog V0.1 
+
+
 Made Scripts More efficent
 Added Gui
 Added Buttons, Help, Kill, About
@@ -18,6 +20,8 @@ Added Buttons, Help, Kill, About
 
 
 Changelog V0.2
+
+
 Added the rebinder tool
 Added Weapon lower Tool
 Fixed bug where delete wouldn't stop when suspending script
@@ -33,6 +37,8 @@ Enable usage on multiple setups
 
 
 To Do List
+
+
 Fix Weapon Lower
 Add a better way to show controls (Maybe Image?)
 General Rule sets for game types  e.g infection 15 human spawns
