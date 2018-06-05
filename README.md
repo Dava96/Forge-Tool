@@ -1,8 +1,7 @@
 # Forge-Tool
-El Dewrito Forge helper (Keyboard only)
+El Dewrito Forge helper (Keyboard only) Written in Autohotkey
 
-
-Written in Autohotkey https://autohotkey.com/
+https://autohotkey.com/
 
 This script assumes you use the default keybinds in Eldewrito
 Have to be using a keyboard for it to work
