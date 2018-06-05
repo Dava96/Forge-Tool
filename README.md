@@ -2,7 +2,7 @@
 El Dewrito Forge helper (Keyboard only)
 
 
-Written in AHK (Auto Hotkey) https://autohotkey.com/
+Written in Autohotkey https://autohotkey.com/
 
 This script assumes you use the default keybinds in Eldewrito
 Have to be using a keyboard for it to work
@@ -42,4 +42,4 @@ To Do List
 Fix Weapon Lower
 Add a better way to show controls (Maybe Image?)
 General Rule sets for game types  e.g infection 15 human spawns
-Add 2 more Presets (LSD version)
+
