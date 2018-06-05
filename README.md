@@ -1,5 +1,6 @@
 # Forge-Tool
-El Dewrito Forge helper (Keyboard only) Written in Autohotkey
+Written in Autohotkey
+El dewrito forge helper (keyboard only)
 
 https://autohotkey.com/
 
