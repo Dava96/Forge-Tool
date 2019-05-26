@@ -16,6 +16,8 @@ This also shows how many objects you are able to place on all available maps bef
 
 # Controls
 
+In order for these to work you need to select your games resolution from the drop down list.
+
 Ctrl + S - This saves the map automatically.
 Ctrl + R - This restarts the round automatically.
 Ctrl + F - This starts the auto delete function.
