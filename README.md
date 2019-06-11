@@ -31,7 +31,7 @@ In order for these to work you need to select your games resolution from the dro
 `CapsLock` - Enables/Disables the tool from making inputs.
 
 
-## Screenshot
+## Demo
 
 ![s6NBUTuJkr](https://user-images.githubusercontent.com/19593476/59283037-ce28af80-8c61-11e9-8f12-565a5ac9bccb.gif)
 
