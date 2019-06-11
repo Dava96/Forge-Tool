@@ -29,3 +29,8 @@ In order for these to work you need to select your games resolution from the dro
 `Ctrl + B` - To rebind the keys in order for the Auto delete function to work. This is to prevent accidentally starting it.
 
 `CapsLock` - Enables/Disables the tool from making inputs.
+
+
+## Screenshot
+
+![demoimage](https://user-images.githubusercontent.com/19593476/59282422-d3d1c580-8c60-11e9-84e8-15f00fea4581.jpg)
