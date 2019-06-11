@@ -1,6 +1,6 @@
 # Forge-Tool
 Written in Autohotkey.
-Eldewrito (0.5.1) forge helper (keyboard only)
+Forge tool is a small gui application that helps in the game Eldewrito.
 
 https://autohotkey.com/
 
@@ -33,4 +33,5 @@ In order for these to work you need to select your games resolution from the dro
 
 ## Screenshot
 
-![demoimage](https://user-images.githubusercontent.com/19593476/59282422-d3d1c580-8c60-11e9-84e8-15f00fea4581.jpg)
+![s6NBUTuJkr](https://user-images.githubusercontent.com/19593476/59283037-ce28af80-8c61-11e9-8f12-565a5ac9bccb.gif)
+
